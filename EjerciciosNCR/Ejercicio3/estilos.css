@@ -1,0 +1,128 @@
+.box {
+
+    background-color: rgb(73, 73, 73);
+    max-width: 725px;
+    max-height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+}
+
+
+.formHeader h1 {
+
+    padding: 20px 0px 10px;
+    color: rgb(149, 223, 75);
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.formContent {
+
+    background-color: rgb(149, 223, 75);
+
+}
+
+.billsTableLow th {
+
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.billsTableLow td {
+
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+.billsTableHigh th {
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+
+.billsTableHigh td {
+
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+th {
+
+    font-size: 11px;
+    font-weight: 900;
+
+}
+
+td {
+
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.dollar {
+
+    color: rgb(51, 51, 51);
+    background-color: rgb(80, 156, 65);
+
+}
+
+.whiteBox {
+
+    color: rgb(153, 238, 83);
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: -15px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 3rem;
+    box-shadow: inset 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+.botones a {
+
+    border-radius: 25px;
+    background-color: none;
+    color: white;
+    box-shadow: inset 0px 0px 15px 5px rgba(34, 63, 39, 0.15);
+    width: 90%;
+    display: block;
+    font-size: 1.6rem;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.botones a:hover {
+
+    color: white;
+    background-color: rgb(117, 177, 58);
+    text-decoration: none;
+
+}
+
+.botones {
+
+    margin: 30px 0px 35px 0px;
+
+}
+
+.btn {
+
+    background-color: rgb(149, 223, 75);
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    box-shadow: inset 0px 0px 15px 5px rgba(34, 63, 39, 0.15);
+
+}
