@@ -1,7 +1,9 @@
-def solucion(A, B):
+def solution(A, B):
 	
 	lenghtA = len(A)
 	lenghtB = len(B)
+
+	# Make both lowecase for an easier comparison
 
 	A = A.lower()
 	B = B.lower()
@@ -12,6 +14,8 @@ def solucion(A, B):
 	for i in range(lenghtA):
 		
 		if (i + (lenghtB - 1)) <= lenghtA:
+
+			# Create a substring from A anc compare it with B
 
 			subGroupA = A[i:(i+lenghtB)]
 			
@@ -40,6 +44,6 @@ def solucion(A, B):
 A = "Hola, que buena ola Laomir"
 B = "OAL"
 
-result = solucion(A, B)
+result = solution(A, B)
 print("The substring '" + str(B) + "' appears " + str(result) + " times in the string '" + str(A) + "'")
 input("\nPress any key to exit")
