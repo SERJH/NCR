@@ -1,4 +1,4 @@
-def solucion(A, B, N, C, M):
+def solution(A, B, N, C, M):
 
 	amountOfPlanks = N
 	amountOfNails = M
@@ -53,7 +53,7 @@ def solucion(A, B, N, C, M):
 
 		return -1
 	
-result = solucion([1,4,5,8], [4,5,9,10], 4, [4,6,7,10,2], 5)
+result = solution([1,4,5,8], [4,5,9,10], 4, [4,6,7,10,2], 5)
 
 if result != -1:
 
